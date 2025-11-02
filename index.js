@@ -8,9 +8,9 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // URLs configuration
-const FRONTEND_URL = 'https://178ql44r-5173.asse.devtunnels.ms';
-const ADMIN_URL = 'https://178ql44r-5173.asse.devtunnels.ms';
-const DASHBOARD_URL = 'https://178ql44r-5173.asse.devtunnels.ms';
+const FRONTEND_URL = 'nanov1.vercel.app';
+const ADMIN_URL = 'nanov1admin.vercel.app';
+const DASHBOARD_URL = 'nanov1.vercel.app';
 
 // Middleware
 app.use(cors({
@@ -674,5 +674,6 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 module.exports = app;
+
 
 
